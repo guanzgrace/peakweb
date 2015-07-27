@@ -1,0 +1,48 @@
+/* ***** ***** ***** ***** ***** ***** ***** *
+   custom css for the peak website 
+   created by Grace Guan for PEAK Swimming
+   August 2014 - updated July 2015
+*  ***** ***** ***** ***** ***** ***** ***** */
+/*important basics*/
+*{margin: 0; padding: 0;}
+html, body{height: 100%; margin: 0; padding: 0;}
+p{text-align: left; margin: 2px; padding: 5px 10px;}
+ul{padding: 2px; margin: 2px; list-style-type: none;}
+li{padding: 4px;}
+hr{border: none; height: 1px; color: #f4f4f4; background-color: #f4f4f4; margin: 15px; padding: 0px;}
+body {font-family: 'Lato', Arial, sans-serif; font-size: 12px; line-height:140%; font-weight: 400; color:#424242; background: #c9d4e1 url('http://peakswim.com/images/bg_water.jpg') repeat-x left top;}
+a{text-decoration:none; color: #666;}
+a:hover {color:#8FB0D5;}
+/*center, header, linkbar, footer, navigation bars
+  total width of center container is 654px: 652px content with 1px border on each side
+  move the bottom up for the footer: 26+5+5+1-1 to always display scrollbar
+  have a fallback for linkbar if the gif doesn't load*/
+#center{width: 652px; min-height: 100%;height: auto !important; height: 100%; margin: 0px auto -36px; border-left: 1px solid #eee; border-right: 1px solid #eee; background-color: #fff; text-align: center;}
+#header{width: 642px; padding: 5px; background-color: #f8f8f8;}
+.headerimg{height: 112px; width: 152px;}
+#linkbar, #linkbar2{width: 642px; padding: 5px; background-color: #f8f8f8; border-bottom: 1px solid #eee; font-size: 14px; height: 15px; text-transform: uppercase;}
+#linkbar{border-top: 1px solid #eee;}
+#linkbar a:hover, #linkbar2 a:hover{background-color: #c9d4e1; background: url('http://peakswim.com/images/linkhover.gif'); -webkit-text-fill-color: transparent; -webkit-background-clip: text;}
+#footer{padding: 5px 0px;margin-left: auto; margin-right: auto; width: 652px; height: 26px; border-left: 1px solid #eee; border-right: 1px solid #eee; border-top: 1px solid #eee; background-color: #f8f8f8; text-align: center; font-size: 11px; line-height: 118%;}
+#bar{width: 150px; padding: 5px; background-color: #f8f8f8; border: 1px solid #eee; float: left;}
+#bar a{display: block; padding: 4px;}
+#bar a:hover{background-color: #ccc; color: #fff;}
+.selectdbar{background-color: #ddd; color: #fff;}
+/*shifting around the content*/
+#content{width: 642px; padding: 5px; margin-top: 20px;}
+#left20{margin-left: 20px;}
+#width550{font-size: 13px; margin: 4px auto; width: 550px;}
+#width620{margin: 4px auto; width: 620px;}
+#rightbox{width: 438px;!important max-width: 438px; color: #000; float: right;}
+#rightbox2{width: 438px;!important max-width: 438px; color: #000; margin-left: 185px;}
+.coach{font-size: 14px;}
+.right{float: right;}
+.left{float: left;}
+.selected, .selectedhead {text-decoration: underline;}
+.fw700{font-weight: 700;}
+.cntctlnk{margin: 8px;}
+/*formatting PEAK Swimming's latest news section!*/
+.feedTitle{text-align: center; font-size: 15px; line-height: 20px; text-decoration: underline;}
+.feedTitle a{color: #000;}
+.date{text-align: right;}
+.headline{color: #232323;}

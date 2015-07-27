@@ -1,0 +1,7 @@
+@author Grace Guan
+@version 7/26/15. prior changes untracked.
+@notice public_html is the only up to date folder
+
+7/26/15
+1. updated html
+2. deleted oldsite and oldsite2 from public_html. archived versions can be found in www.
